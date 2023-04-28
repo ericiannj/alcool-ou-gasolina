@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#87C4CB"
-    android:backgroundTint="#87C4CB"
+    android:background="#2B5A1E"
+    android:backgroundTint="#F1014F"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -21,44 +21,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="uma bomba de gasolina ilustrando o app"
-            android:paddingVertical="10dp"
-            android:textAlignment="center"
-            app:srcCompat="@mipmap/ic_launcher_foreground" />
-
         <TextView
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
             android:text="Gasolina ou Álcool?"
             android:textAlignment="center"
-            android:textColor="#87C4CB"
+            android:textColor="#4D4D4D"
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/edAlcool"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="30dp"
-            android:ems="10"
-            android:hint="Preço da gasolina"
-            android:inputType="numberDecimal" />
-
-        <EditText
-            android:id="@+id/edGasolina"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="alcool"
-            android:inputType="numberDecimal" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="uma bomba de gasolina ilustrando o app"
+            android:paddingVertical="10dp"
+            android:textAlignment="center"
+            app:srcCompat="@mipmap/ic_launcher" />
 
         <Switch
             android:id="@+id/swPercentual"
@@ -66,7 +50,35 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginHorizontal="30dp"
-            android:text="75%" />
+            android:text="0.7" />
+
+        <EditText
+            android:id="@+id/etGasolina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:ems="10"
+            android:hint="Preço da Gasolina:"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etAlcool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="70dp"
+            android:ems="10"
+            android:hint="Preço do Álcool:"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/tResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="25sp" />
 
         <Button
             android:id="@+id/btCalcular"
@@ -74,8 +86,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
-            android:backgroundTint="#CB584C"
+            android:backgroundTint="#F1014F"
             android:text="Calcular" />
+
+
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

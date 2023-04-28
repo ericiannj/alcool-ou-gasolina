@@ -2,13 +2,13 @@
     <!-- Base application theme. -->
     <style name="Theme.AlcoolOuGasolina" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#CB584C</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">#FBBD39</item>
+        <item name="colorPrimaryVariant">#FFCA5A</item>
         <item name="colorOnPrimary">@color/white</item>
         <item name="colorPrimaryDark">#1F1F1F</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#B85045</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">#ED004F</item>
+        <item name="colorSecondaryVariant">#A64968</item>
         <item name="colorOnSecondary">@color/black</item>
 
         <!-- Customize your theme here. -->
