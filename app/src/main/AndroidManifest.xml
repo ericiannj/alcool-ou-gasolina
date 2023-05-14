@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AlcoolOuGasolina"
-        tools:targetApi="28">
+        tools:targetApi="28"
+        android:layout_height="wrap_content">
         <activity
             android:name=".MainActivity"
             android:exported="true">
