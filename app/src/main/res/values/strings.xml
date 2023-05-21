@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" textSize="40sp" textColor="#000000">Calculadora de Combustível</string>
+    <string name="app_name" textSize="40sp" textColor="#000000">Fuel Calculator</string>
+    <string name="title" textSize="40sp" textColor="#000000">Gas or Alcohol?</string>
+    <string name="price_gas" textSize="40sp" textColor="#000000">Price of Gas:</string>
+    <string name="price_alcohol" textSize="40sp" textColor="#000000">Price of Alcohol:</string>
+    <string name="button_text" textSize="40sp" textColor="#000000">Calculate</string>
+    <string name="result_gas" textSize="40sp" textColor="#000000">Gas!</string>
+    <string name="result_alcohol" textSize="40sp" textColor="#000000">Alcohol!</string>
 </resources>

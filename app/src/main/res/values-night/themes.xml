@@ -18,5 +18,6 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColorHint">#FFFFFF</item>
         <item name="android:backgroundTint">#173798</item>
+        <item name="android:colorAccent">#FFFFFF</item>
     </style>
 </resources>

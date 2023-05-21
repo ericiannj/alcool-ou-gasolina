@@ -41,10 +41,10 @@ class MainActivity : AppCompatActivity() {
         val textResultado = findViewById<TextView>(R.id.tResultado)
         Log.d("PDM23", "$melhorCombustivel, Resultado: R$ ${String.format("%.2f", vComparado)}")
         if (melhorCombustivel == "a") {
-            textResultado.setText(String.format("Álcool!"))
+            textResultado.setText(String.format(getString(R.string.result_alcohol)))
             textResultado.setTextColor(getColor(R.color.alcool))
         } else {
-            textResultado.setText(String.format("Gasolina!"))
+            textResultado.setText(String.format(getString(R.string.result_gas)))
             textResultado.setTextColor(getColor(R.color.gas))
         }
     }
